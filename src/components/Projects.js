@@ -55,6 +55,24 @@ const Projects = () => {
       date: "May 2025",
       featured: false
     }
+    ,
+    {
+      title: "Premium Team Task Manager",
+      subtitle: "Full-stack SaaS Task Management Platform",
+      description: "Premium team task manager with glassmorphic UI, real-time tracking, role-based access, and JWT-secured routes. Built for modern teams with an emphasis on UX and collaboration.",
+      tech: ["React 19", "Vite", "Lucide React", "Vanilla CSS", "Node.js", "Express", "Sequelize", "MySQL", "JWT"],
+      highlights: [
+        "Premium dark glassmorphic UI with smooth animations",
+        "Real-time dashboard with progress rings and activity feed",
+        "Project and task management with teammate assignments",
+        "Modal-driven in-place task creation",
+        "JWT authentication with role-based access control"
+      ],
+      date: "May 2026",
+      featured: true,
+      repo: "https://github.com/charansai2255/Team_Task_Manager",
+      live: ""
+    }
   ];
 
   return (
@@ -113,6 +131,18 @@ const Projects = () => {
                           {tech}
                         </span>
                       ))}
+                    </div>
+                    <div className="mt-6 flex flex-wrap gap-3">
+                      {project.repo && (
+                        <a href={project.repo} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-500 text-white rounded-lg shadow hover:opacity-90">
+                          View Repo
+                        </a>
+                      )}
+                      {project.live && (
+                        <a href={project.live} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-4 py-2 border border-purple-500 text-purple-200 rounded-lg">
+                          Live Demo
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
