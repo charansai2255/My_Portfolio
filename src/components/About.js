@@ -68,7 +68,7 @@ const About = () => {
               <div>
                 <h4 className="font-bold text-white mb-2">Bachelor of Technology in CSE</h4>
                 <p className="text-sm text-zinc-400 mb-1">Geethanjali College of Engineering and Technology</p>
-                <p className="text-sm text-zinc-500">Oct 2022 – Present • Hyderabad</p>
+                <p className="text-sm text-zinc-500">Oct 2022 – May 2026• Hyderabad</p>
                 <div className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-purple-500/10 to-pink-500/10 border border-purple-500/20">
                   <span className="text-sm font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">GPA: 7.6</span>
                 </div>

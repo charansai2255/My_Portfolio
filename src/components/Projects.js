@@ -73,6 +73,55 @@ const Projects = () => {
       repo: "https://github.com/charansai2255/Team_Task_Manager",
       live: ""
     }
+    ,
+{
+  title: "Car Price Prediction System",
+  subtitle: "Machine Learning-Based Vehicle Resale Value Predictor",
+  description: "A full-stack ML web application that predicts used car resale prices using an XGBoost regression model. Built with React, FastAPI, and Scikit-Learn, providing real-time price estimates through a modern responsive dashboard.",
+  tech: [
+    "React.js",
+    "FastAPI",
+    "XGBoost",
+    "Scikit-Learn",
+    "Python",
+    "Tailwind CSS",
+    "Pandas"
+  ],
+  highlights: [
+    "Real-time car price prediction using XGBoost Regressor",
+    "FastAPI REST API integration with React frontend",
+    "Responsive dashboard with modern dark UI",
+    "Vehicle feature-based price estimation system",
+    "Production-ready deployment on Vercel and Render"
+  ],
+  date: "June 2026",
+  featured: true,
+  live: "https://car-price-prediction-cl0upck8t-charansai04s-projects.vercel.app/"
+},
+{
+  title: "Diabetes Prediction System",
+  subtitle: "Healthcare Risk Assessment Using Machine Learning",
+  description: "A machine learning-powered web application that predicts diabetes risk based on medical parameters. Built with Python, Streamlit, and Scikit-Learn using a trained Support Vector Machine (SVM) model.",
+  tech: [
+    "Python",
+    "Streamlit",
+    "Scikit-Learn",
+    "SVM",
+    "NumPy",
+    "Pandas",
+    "Joblib"
+  ],
+  highlights: [
+    "Diabetes prediction using Support Vector Machine model",
+    "Real-time health risk assessment",
+    "Data preprocessing with StandardScaler",
+    "Interactive Streamlit web interface",
+    "Instant prediction results with risk evaluation"
+  ],
+  date: "July 2026",
+  featured: true,
+  live: "https://diabetes-prediction-system-wefewfwf.streamlit.app/"
+}
   ];
 
   return (
