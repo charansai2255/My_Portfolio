@@ -6,7 +6,7 @@ const Projects = () => {
       title: "EcoTrace",
       subtitle: "QR-Based Product Transparency & Sustainability Tracking",
       description: "A comprehensive web system that revolutionizes product transparency through QR code technology, providing instant access to sustainability metrics and complete product lifecycle information.",
-      tech: ["React.js", "Node.js", "MongoDB", "QR API"],
+      tech: ["React.js", "FastAPI", "SQLite", "REST API" , "SQLAlchemy"],
       highlights: [
         "QR-code system for instant sustainability data access",
         "Product lifecycle and batch tracking modules",
@@ -70,7 +70,6 @@ const Projects = () => {
       ],
       date: "May 2026",
       featured: true,
-      repo: "https://github.com/charansai2255/Team_Task_Manager",
       live: ""
     }
     ,
@@ -94,9 +93,8 @@ const Projects = () => {
     "Vehicle feature-based price estimation system",
     "Production-ready deployment on Vercel and Render"
   ],
-  date: "June 2026",
+  date: "June 2025",
   featured: true,
-  live: "https://car-price-prediction-cl0upck8t-charansai04s-projects.vercel.app/"
 },
 {
   title: "Diabetes Prediction System",
@@ -118,9 +116,8 @@ const Projects = () => {
     "Interactive Streamlit web interface",
     "Instant prediction results with risk evaluation"
   ],
-  date: "July 2026",
+  date: "July 2025",
   featured: true,
-  live: "https://diabetes-prediction-system-wefewfwf.streamlit.app/"
 }
   ];
 
